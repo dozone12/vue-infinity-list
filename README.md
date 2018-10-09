@@ -1,4 +1,4 @@
-# test
+# Vue-infinity-list
 
 ## Project setup
 ```
