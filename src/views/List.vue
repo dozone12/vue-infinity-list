@@ -101,7 +101,7 @@
   }
   .list__wrapper{
     width: 500px;
-    height: 460px;
+    height: 80vh;
     background-color: #35495e;
     overflow: scroll;
     overflow-x: hidden;
