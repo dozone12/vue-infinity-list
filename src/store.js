@@ -14,9 +14,7 @@ export default new Vuex.Store({
       state[type] = item
     },
     setPhotos(state, data){
-      data.forEach(item =>{
-        state.photos.push(item)
-      })
+      state.photos = [ ...state.photos, ...data]
     }
   },
   actions: {
